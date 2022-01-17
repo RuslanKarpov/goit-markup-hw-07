@@ -77,12 +77,10 @@ ul {
   background-color: var(--accent-color-text);
 }
 
-.site-nav .link .current {
+.site-nav__link .current {
   color: var(--accent-color);
 }
-.link.current {
-  color: var(--accent-color);
-}
+
 .current::after {
   content: '';
   display: block;
@@ -133,7 +131,7 @@ ul {
 .nav-box__logo-studio:focus {
   color: var(--accent-color);
 }
-.site-nav .link {
+.site-nav__link {
   display: block; /* делает элемент блочным */
   padding-top: 32px;
   padding-bottom: 32px;
@@ -146,11 +144,11 @@ ul {
 
   transition: color 250ms var(--time);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
 }
 /* Contacts */
