@@ -38,17 +38,17 @@
           </nav>
           <!--Контакты -->
           <ul class="contact-nav">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="contacts-link">
-                <svg class="contact-nav-icon-f">
+            <li class="contact-nav__item">
+              <a href="mailto:info@devstudio.com" class="contact-nav__link">
+                <svg class="contact-nav__icon-f">
                   <use href="./images/hover-images/sprite-hover.svg#icon-envelope-2"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="contacts-link">
-                <svg class="contact-nav-icon-s">
+            <li class="contact-nav__item">
+              <a href="tel:+380961111111" class="contact-nav__link">
+                <svg class="contact-nav__icon-s">
                   <use href="./images/hover-images/sprite-hover.svg#icon-smartphone-2"></use>
                 </svg>
                 +38 096 111 11 11
@@ -58,107 +58,117 @@
         </div>
       </header>
       <main>
+
         <!--Герой-hero-->
-        <section class="hero">
+
+        <section class="hero-section">
           <div class="container">
             <div class="hero-container">
               <h1 class="hero-title centered">Эффективные решения для вашего бизнеса</h1>
-              <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+              <button type="button" class="button__label" data-modal-open>Заказать услугу</button>
             </div>
           </div>
         </section>
+
         <!--Приемущества-features-->
-        <section class="section">
+        
+        <section class="features-section">
           <div class="container">
             <h2 class="visually-hidden">Приемущества</h2>
-            <ul class="feature-list">
-              <li class="feature-item">
-                <div class="feature-icon">
-                  <svg class="icon">
+            <ul class="feature__list">
+              <li class="feature__item">
+                <div class="feature__symbol">
+                  <svg class="feature__icon">
                     <use href="./images/features-images/sprite-feature.svg#icon-antenna-1"></use>
                   </svg>
                 </div>
-                <h3 class="feature-title">Внимание к деталям</h3>
-                <p class="feature-text">
+                <h3 class="feature__title">Внимание к деталям</h3>
+                <p class="feature__text">
                   Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
               </li>
-              <li class="feature-item">
-                <div class="feature-icon">
-                  <svg class="icon">
+              <li class="feature__item">
+                <div class="feature__symbol">
+                  <svg class="feature__icon">
                     <use href="./images/features-images/sprite-feature.svg#icon-clock-1"></use>
                   </svg>
                 </div>
-                <h3 class="feature-title">Пунктуальность</h3>
-                <p class="feature-text">
+                <h3 class="feature__title">Пунктуальность</h3>
+                <p class="feature__text">
                   Задача организации, в особенности же рамки и место обучения кадров влечет за
                   собой.
                 </p>
               </li>
-              <li class="feature-item">
-                <div class="feature-icon">
-                  <svg class="icon">
+              <li class="feature__item">
+                <div class="feature__symbol">
+                  <svg class="feature__icon">
                     <use href="./images/features-images/sprite-feature.svg#icon-diagram-1"></use>
                   </svg>
                 </div>
-                <h3 class="feature-title">Планирование</h3>
-                <p class="feature-text">
+                <h3 class="feature__title">Планирование</h3>
+                <p class="feature__text">
                   Равным образом консультация с широким активом в значительной степени
                   обуславливает.
                 </p>
               </li>
-              <li class="feature-item">
-                <div class="feature-icon">
-                  <svg class="icon">
+              <li class="feature__item">
+                <div class="feature__symbol">
+                  <svg class="feature__icon">
                     <use href="./images/features-images/sprite-feature.svg#icon-astronaut-1"></use>
                   </svg>
                 </div>
-                <h3 class="feature-title">Современные технологии</h3>
-                <p class="feature-text">
+                <h3 class="feature__title">Современные технологии</h3>
+                <p class="feature__text">
                   Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
               </li>
             </ul>
           </div>
         </section>
+
         <!--Чем мы занимаемся -  About us-->
-        <section class="section about-us-section">
+
+        <section class="about-us-section">
           <div class="container">
-            <h2 class="about-us-title">Чем мы занимаемся</h2>
-            <ul class="about-us-list">
-              <li class="about-us-item">
-                <div class="applications-image">
+            <h2 class="about-us__title">Чем мы занимаемся</h2>
+            <ul class="about-us__nav">
+              <li class="about-us__item">
+                <div class="applications">
                   <img src="./images/about1.jpg" alt="computer image" width="370" height="295" />
-                  <div class="applications">
-                    <p class="applications-text">Десктопные приложения</p>
+                  <div class="applications__overlay">
+                    <p class="applications__text">Десктопные приложения</p>
                   </div>
                 </div>
               </li>
-              <li class="about-us-item">
-                <div class="applications-image">
+              <li class="about-us__item">
+                <div class="applications">
                   <img
                     src="./images/about2.jpg"
                     alt="picture of phone and laptop"
                     width="370"
                     height="295"
                   />
-                  <div class="applications">
-                    <p class="applications-text">Мобильные приложения</p>
+                  <div class="applications__overlay">
+                    <p class="applications__text">Мобильные приложения</p>
                   </div>
                 </div>
               </li>
-              <li class="about-us-item">
-                <div class="applications-image">
+              <li class="about-us__item">
+                <div class="applications">
                   <img src="./images/about3.jpg" alt="tablet image" width="370" height="295" />
-                  <div class="applications">
-                    <p class="applications-text">Дизайнерские решения</p>
+                  <div class="applications__overlay">
+                    <p class="applications__text">Дизайнерские решения</p>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
         </section>
+
+
         <!--Наша команда - team-->
+
+
         <section class="section team">
           <div class="container">
             <h2 class="team-head-title">Наша команда</h2>
@@ -376,7 +386,9 @@
             </ul>
           </div>
         </section>
+
         <!--Клиенты - clients-->
+
         <section class="section clients">
           <div class="container">
             <h2 class="section-title">Постоянные клиенты</h2>
@@ -427,7 +439,9 @@
           </div>
         </section>
       </main>
+
       <!--************Footer****************-->
+
       <footer class="footer">
         <div class="container footer-container">
           <div class="footer-addres">
