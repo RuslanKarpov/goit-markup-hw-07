@@ -192,7 +192,7 @@ ul {
 
 /* Hero */
 
-.hero-section {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
@@ -244,16 +244,13 @@ ul {
 }
 
 /* Features - Приемущества */
-
 .hidden {
   visibility: hidden;
 }
-.features-section {
+.section {
   padding: 94px 0;
 }
-.section__titles h2 {
-  visibility: hidden;
-}
+
 .feature__list {
   display: flex;
 }
@@ -276,7 +273,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.feature__symbol {
+.feature__sumbol {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,19 +281,17 @@ ul {
   background-color: var(--backing-color);
   margin-bottom: 30px;
 }
-.feature__symbol .feature__icon {
+.feature__sumbol .feature__icon {
   width: 70px;
   height: 70px;
 }
-
 /* About us */
-
 .about-us-section {
   text-align: center;
   padding-top: 0px;
   padding-bottom: 94px;
 }
-.about-us__title {
+.about-us-title {
   color: var(--titles-text-color-first);
   font-weight: 700;
   font-size: 36px;
@@ -304,18 +299,18 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.about-us__nav {
+.about-us-list {
   display: flex;
   margin-top: 50px;
   margin-left: -30px;
 }
-.about-us__item {
+.about-us-item {
   margin-left: 30px;
 }
-.applications {
+.applications-image {
   position: relative;
 }
-.applications__overlay {
+.applications {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -325,7 +320,7 @@ ul {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.applications__text {
+.applications-text {
   color: var(--accent-color-text);
   font-weight: 700;
   font-size: 14px;
@@ -334,9 +329,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+/* .about-us-item:first-child {
+  margin-left: 0px;
+} */
 /*Team */
-
 .team {
   background-color: var(--backing-color);
 }
