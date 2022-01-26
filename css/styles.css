@@ -605,7 +605,7 @@ ul {
   display: flex;
   align-items: baseline;
 }
-.footer-logo {
+.footer__logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color-text);
   font-weight: 700;
@@ -613,7 +613,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.f-web {
+.footer__web {
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
@@ -623,7 +623,7 @@ ul {
 
   transition: color 250ms var(--time);
 }
-.f-studio {
+.footer__studio {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -632,8 +632,8 @@ ul {
 
   transition: color 250ms var(--time);
 }
-.footer-logo:hover,
-.footer-logo:focus {
+.footer__logo:hover,
+.footer__logo:focus {
   color: var(--accent-color);
 }
 .footer-addres {
@@ -661,7 +661,7 @@ ul {
   transition: color 250ms var(--time);
 }
 
-.footer-item {
+.footer-addres__item {
   margin-top: 9px;
 }
 
@@ -676,7 +676,7 @@ ul {
 .fsocial-title {
   margin-left: 70px;
 }
-.footer-title {
+.footer__title {
   color: var(--accent-color-text);
   font-weight: 700;
   font-size: 14px;
@@ -693,15 +693,15 @@ ul {
   width: 20px;
   height: 20px;
 }
-.fsocial-item {
+.fsocial__item {
   width: 44px;
   height: 44px;
   margin-left: 10px;
 }
-.fsocial-item:first-child {
+.fsocial__item:first-child {
   margin-left: 0;
 }
-.fsocial-link {
+.fsocial__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -713,20 +713,21 @@ ul {
 
   transition: color 250ms var(--time), background-color 250ms var(--time);
 }
-.fsocial-icon {
-  fill: var(--accent-color-text);
-}
 
-.fsocial-link:hover,
-.fsocial-link:focus {
+.fsocial__link:hover,
+.fsocial__link:focus {
   fill: var(--accent-color-text);
   background-color: var(--accent-color);
 }
-.fsocial-link:hover .fsocial-icon,
-.fsocial-link:focus .fsocial-icon {
+.fsocial__link:hover .fsocial-icon,
+.fsocial__link:focus .fsocial-icon {
   fill: var(--accent-color-text);
 }
-
+.fsocial__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--accent-color-text);
+}
 /* ****************subscribe */
 
 .subscribe-container {
