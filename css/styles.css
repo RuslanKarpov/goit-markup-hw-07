@@ -7,7 +7,7 @@
   --background-color: #2f303a;
   --background-color-modal: #188ce8;
   --logo-color: #000000;
-  --backing-color: #f5f4fa;
+  --team-color: #f5f4fa;
   --header-color: #ececec;
   --portfolio-color: #e5e5e5;
   --clients-color: #afb1b8;
@@ -285,7 +285,7 @@ ul {
   padding-top: 0px;
   padding-bottom: 94px;
 }
-.about-us-title {
+.about-us__title {
   color: var(--titles-text-color-first);
   font-weight: 700;
   font-size: 36px;
@@ -314,7 +314,7 @@ ul {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.application-text {
+.application__text {
   color: var(--accent-color-text);
   font-weight: 700;
   font-size: 14px;
@@ -327,8 +327,8 @@ ul {
   margin-left: 0px;
 } */
 /*Team */
-.team {
-  background-color: var(--backing-color);
+.team-section {
+  background-color: var(--team-color);
 }
 .team-container {
   margin-left: auto;
@@ -336,7 +336,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-.team-head-title {
+.team__title {
   margin-bottom: 50px;
   color: var(-titles-text-color-first);
   font-weight: 700;
@@ -345,11 +345,11 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-list {
+.team {
   display: flex;
   margin-left: -30px;
 }
-.team-item {
+.team__item {
   flex-basis: calc(100% / 4-30px);
   margin-left: 30px;
   background-color: var(--accent-color-text);
@@ -360,7 +360,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.title {
+.card__title {
   color: var(--titles-text-color-first);
   font-weight: 500;
   font-size: 16px;
@@ -368,7 +368,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.text {
+.card__text {
   color: var(--text-color);
   margin-top: 10px;
   font-weight: normal;
@@ -382,16 +382,16 @@ ul {
   justify-content: center;
   margin-top: 16px;
 }
-.social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
   margin-left: 10px;
 }
-.social-item:first-child {
+.social-list__item:first-child {
   margin-left: 0;
 }
 
-.social-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,8 +403,8 @@ ul {
   transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
 }
