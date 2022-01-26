@@ -323,10 +323,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* .about-us-item:first-child {
-  margin-left: 0px;
-} */
+
 /*Team */
+
 .team-section {
   background-color: var(--team-color);
 }
@@ -510,10 +509,6 @@ ul {
   overflow: visible;
 }
 
-/* .thumb-box:hover .thumb-text {
-  opacity: 1;
-} */
-
 /* ************************ */
 .portfolio-title {
   color: var(--titles-text-color-first);
@@ -545,12 +540,14 @@ ul {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
+
 /* clients */
-.clients {
+
+.clients-section {
   padding: 94px auto;
   background-color: var(-portfolio-color);
 }
-.section-title {
+.clients__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -558,20 +555,20 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.client-list {
+.clients {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.client-item {
+.clients__item {
   width: 170px;
   height: 92px;
   margin-left: 30px;
 }
-.client-item:first-child {
+.clients__item:first-child {
   margin-left: 0;
 }
-.client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -584,13 +581,13 @@ ul {
   transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
+.clients__link:hover .client-icon,
+.clients__link:focus .client-icon {
   fill: var(--accent-color);
 }
 .client-icon {
