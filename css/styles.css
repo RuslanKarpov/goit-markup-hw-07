@@ -327,6 +327,8 @@ ul {
 /*Team */
 
 .team-section {
+  padding: 94px 0;
+  height: 708px;
   background-color: var(--team-color);
 }
 .team-container {
@@ -347,6 +349,7 @@ ul {
 .team {
   display: flex;
   margin-left: -30px;
+  align-items: center;
 }
 .team__item {
   flex-basis: calc(100% / 4-30px);
