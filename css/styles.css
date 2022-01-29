@@ -542,7 +542,7 @@ ul {
 
 .clients__section {
   padding: 94px auto;
-  background-color: var(--portfolio-color);
+  background-color: var(--accent-color-text);
 }
 .clients__title {
   margin-bottom: 50px;
