@@ -241,7 +241,7 @@ ul {
 .hidden {
   visibility: hidden;
 }
-.features-section {
+.features__section {
   padding: 94px 0;
 }
 
@@ -280,7 +280,7 @@ ul {
   height: 70px;
 }
 /* About us */
-.about-us-section {
+.about-us__section {
   text-align: center;
   padding-top: 0px;
   padding-bottom: 94px;
@@ -301,10 +301,10 @@ ul {
 .about-us__item {
   margin-left: 30px;
 }
-.application-image {
+.application__image {
   position: relative;
 }
-.application-title {
+.application__title {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -326,7 +326,7 @@ ul {
 
 /*Team */
 
-.team-section {
+.team__section {
   background-color: var(--team-color);
 }
 .team-container {
@@ -542,7 +542,7 @@ ul {
 
 .clients__section {
   padding: 94px auto;
-  background-color: var(-portfolio-color);
+  background-color: var(--portfolio-color);
 }
 .clients__title {
   margin-bottom: 50px;
