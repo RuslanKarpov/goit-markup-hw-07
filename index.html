@@ -515,16 +515,16 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close" data-modal-close>
-          <svg class="modal-close-icon" width="11" height="11">
+        <button class="modal__button" data-modal-close>
+          <svg class="modal__button--close-icon" width="11" height="11">
             <use href="./images/modal/symbol-defs.svg#icon-closed-button"></use>
           </svg>
         </button>
 
         <form class="form-container">
-          <p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
+          <p class="form-container__text">Оставьте свои данные, мы вам перезвоним</p>
 
-          <div class="form-field">
+          <div class="form-container__field">
             <label for="name" class="form-label">Имя</label>
             <input id="name" class="form-input" type="text" name="username" required>
             <svg class="form-icon">
@@ -532,7 +532,7 @@
             </svg>
           </div>
 
-          <div class="form-field">
+          <div class="form-container__field">
             <label for="tel" class="form-label">Телефон</label>
             <input id="name" class="form-input" type="text" name="username" required>
             <svg class="form-icon">
@@ -540,7 +540,7 @@
             </svg>
           </div>
 
-          <div class="form-field">
+          <div class="form-container__field">
             <label for="mail" class="form-label">Почта</label>
             <input id="name" class="form-input" type="text" name="username" required>
             <svg class="form-icon">
@@ -548,7 +548,7 @@
             </svg>
           </div>
 
-          <div class="form-comment">
+          <div class="form-container__comment">
             <label for="message" class="form-label">Коментарий</label>
             <textarea
               id="message"
@@ -558,7 +558,7 @@
             ></textarea>
           </div>
 
-          <div class="form-checkbox">
+          <div class="form-container__checkbox">
             <label class="checkbox-modal"
               >Соглашаюсь с рассылкой и принимаю <span class="modal-link"><span>Условия
               договора</span>
