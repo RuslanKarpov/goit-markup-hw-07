@@ -504,6 +504,10 @@ ul {
 }
 
 /* ************************ */
+
+.portfolio {
+  padding: 94px 0;
+}
 .portfolio__title {
   color: var(--titles-text-color-first);
   font-weight: 700;
@@ -538,7 +542,7 @@ ul {
 /* clients */
 
 .clients-section {
-  padding: 94px auto;
+  padding: 94px;
   background-color: var(--accent-color-text);
 }
 .clients__title {
