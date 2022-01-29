@@ -241,7 +241,7 @@ ul {
 .hidden {
   visibility: hidden;
 }
-.section {
+.features-section {
   padding: 94px 0;
 }
 
@@ -540,7 +540,7 @@ ul {
 
 /* clients */
 
-.clients-section {
+.clients__section {
   padding: 94px auto;
   background-color: var(-portfolio-color);
 }
@@ -598,7 +598,7 @@ ul {
   padding-bottom: 60px;
   background-color: var(--background-color);
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
@@ -633,10 +633,10 @@ ul {
 .footer__logo:focus {
   color: var(--accent-color);
 }
-.footer-addres {
+.footer-addres__list {
   flex-grow: 1;
 }
-.address-map {
+.footer-addres__map {
   display: inline-block;
   font-style: normal;
   margin-top: 20px;
@@ -648,7 +648,7 @@ ul {
 
   transition: color 250ms var(--time);
 }
-.contacts {
+.footer-addres__contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
@@ -662,15 +662,15 @@ ul {
   margin-top: 9px;
 }
 
-.address-map:hover,
-.address-map:focus {
+.footer-addres__map:hover,
+.footer-addres__map:focus {
   color: var(--accent-color);
 }
-.contacts:hover,
-.contacts:focus {
+.footer-addres__contacts:hover,
+.footer-addres__contacts:focus {
   color: var(--accent-color);
 }
-.fsocial-title {
+.footer__social {
   margin-left: 70px;
 }
 .footer__title {
@@ -681,12 +681,12 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.fsocial-list {
+.fsocial {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.fsocial-icon {
+.fsocial__icon {
   width: 20px;
   height: 20px;
 }
@@ -727,7 +727,7 @@ ul {
 }
 /* ****************subscribe */
 
-.subscribe-container {
+.subscribe__container {
   width: 570px;
   margin-left: 93px;
   /* display: flex;
@@ -794,7 +794,7 @@ ul {
   border-radius: 4px;
   border: transparent;
 }
-.icon-send {
+.icon__send {
   margin-left: 10px;
   width: 24px;
   height: 24px;
