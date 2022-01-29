@@ -28,11 +28,16 @@
         <div class="container header-container">
           <nav class="nav-box">
             <a class="nav-box__logo" href="./index.html"
-              ><span class="nav-box__logo-web">Web</span><span class="nav-box__logo-studio">Studio</span></a
+              ><span class="nav-box__logo-web">Web</span
+              ><span class="nav-box__logo-studio">Studio</span></a
             >
             <ul class="site-nav">
-              <li class="site-nav__item"><a href="" class="site-nav__link site-nav__link--current">Студия</a></li>
-              <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
+              <li class="site-nav__item">
+                <a href="" class="site-nav__link site-nav__link--current">Студия</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
+              </li>
               <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
             </ul>
           </nav>
@@ -444,7 +449,9 @@
                   >
                 </li>
                 <li class="footer-addres__item">
-                  <a href="mailto:info@devstudio.com" class="footer-addres__contacts">info@devstudio.com</a>
+                  <a href="mailto:info@devstudio.com" class="footer-addres__contacts"
+                    >info@devstudio.com</a
+                  >
                 </li>
                 <li class="footer-addres__item">
                   <a href="tel:+380961111111" class="footer-addres__contacts">+38 096 111 11 11</a>
@@ -489,29 +496,27 @@
           <div class="subscribe__container">
             <h2 class="subscribe__text">Подпишитесь на рассылку</h2>
             <form class="subscribe">
-              
-                <label for="subscribe-email" class="subscribe__title"></label>
-                <input
-                  id="subscribe-email"
-                  class="subscribe__input"
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                />
-                <button type="submit" class="subscribe__submit">
-                  Подписаться
-                  <svg class="icon__send">
-                    <use href="./images/footer-networks/sprite-footer2.svg#icon-airplane2"></use>
-                  </svg>
-                </button>
-              
+              <label for="subscribe-email" class="subscribe__title"></label>
+              <input
+                id="subscribe-email"
+                class="subscribe__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe__submit">
+                Подписаться
+                <svg class="icon__send">
+                  <use href="./images/footer-networks/sprite-footer2.svg#icon-airplane2"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
       </footer>
     </div>
 
-    <!---------------Modal window------------------>
+    <!----------Modal window---------->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -526,7 +531,7 @@
 
           <div class="form-container__field">
             <label for="name" class="form-label">Имя</label>
-            <input id="name" class="form-input" type="text" name="username" required>
+            <input id="name" class="form-input" type="text" name="username" required />
             <svg class="form-icon">
               <use href="./images/modal/modal-container/sprite-modal.svg#icon-icon"></use>
             </svg>
@@ -534,7 +539,7 @@
 
           <div class="form-container__field">
             <label for="tel" class="form-label">Телефон</label>
-            <input id="name" class="form-input" type="text" name="username" required>
+            <input id="name" class="form-input" type="text" name="username" required />
             <svg class="form-icon">
               <use href="./images/modal/modal-container/sprite-modal.svg#icon-phonetube"></use>
             </svg>
@@ -542,7 +547,7 @@
 
           <div class="form-container__field">
             <label for="mail" class="form-label">Почта</label>
-            <input id="name" class="form-input" type="text" name="username" required>
+            <input id="name" class="form-input" type="text" name="username" required />
             <svg class="form-icon">
               <use href="./images/modal/modal-container/sprite-modal.svg#icon-mail"></use>
             </svg>
@@ -559,20 +564,15 @@
           </div>
 
           <div class="form-container__checkbox">
-            <label class="checkbox-modal"
-              >Соглашаюсь с рассылкой и принимаю <span class="modal-link"><span>Условия
-              договора</span>
-              <input type="checkbox" name="checkbox" class="checkbox">
-              <svg class="checkbox-icon" >
-              <use href="./images/modal/modal-container/sprite-check.svg#icon-icon-check22"></use>
+            <label class="checkbox-modal">
+              Соглашаюсь с рассылкой и принимаю<span class="modal-link">Условия договора</span>
+              <input type="checkbox" name="checkbox" class="checkbox" />
+              <svg class="checkbox-icon">
+                <use href="./images/modal/modal-container/sprite-check.svg#icon-icon-check22"></use>
               </svg>
-              </label>
+            </label>
           </div>
-              <button type="submit" class="click"><span class="click-title">Отправить</span></button>
-            
-          
-
-          
+          <button type="submit" class="click"><span class="click-title">Отправить</span></button>
         </form>
       </div>
     </div>
