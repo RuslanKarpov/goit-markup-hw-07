@@ -61,9 +61,10 @@
   width: 44px;
   height: 44px;
   margin-left: 10px;
-}
-.social-list__item:first-child {
-  margin-left: 0;
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 .social-list__link {
   display: flex;
@@ -75,18 +76,21 @@
   color: var(--clients-color);
 
   transition: color 250ms var(--time), background-color 250ms var(--time);
+
+  &:hover,
+  :focus {
+    color: var(--accent-color-text);
+    background-color: var(--accent-color);
+  }
 }
-.social-list__link:hover,
-.social-list__link:focus {
-  color: var(--accent-color-text);
-  background-color: var(--accent-color);
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: var(--accent-color-text);
-}
+
 .social__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
+
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: var(--accent-color-text);
+  }
 }

@@ -36,16 +36,16 @@
   height: 100%;
 
   transition: color 250ms var(--time), background-color 250ms var(--time);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-.clients__link:hover .client-icon,
-.clients__link:focus .client-icon {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  &:hover .client-icon,
+  &:focus .client-icon {
+    fill: var(--accent-color);
+  }
 }
 .client__icon {
   width: 106px;

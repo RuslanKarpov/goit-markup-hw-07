@@ -44,9 +44,10 @@
   border: transparent;
 
   transition: background-color 250ms var(--time);
-}
-.button__label:hover,
-.button__label:focus {
-  color: var(--accent-color-text);
-  background-color: var(--accent-color-sec);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color-text);
+    background-color: var(--accent-color-sec);
+  }
 }

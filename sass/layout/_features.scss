@@ -35,8 +35,9 @@
   height: 120px;
   background-color: var(--team-color);
   margin-bottom: 30px;
-}
-.features__sumbol .features__icon {
-  width: 70px;
-  height: 70px;
+
+  & .features__icon {
+    width: 70px;
+    height: 70px;
+  }
 }

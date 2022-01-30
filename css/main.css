@@ -556,7 +556,6 @@ ul {
   fill: currentColor;
 }
 
-/******** Buttons **************/
 .filter {
   display: -webkit-box;
   display: -webkit-flex;
@@ -587,16 +586,15 @@ ul {
   transition: color 250ms var(--time), background-color 250ms var(--time), box-shadow color 250ms var(--time), -webkit-box-shadow color 250ms var(--time);
 }
 
-.filter__item:not(:first-child) {
-  margin-left: 8px;
-}
-
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.filter__item:not(:first-child) {
+  margin-left: 8px;
 }
 
 /************** Portfolio ******************/
@@ -789,8 +787,7 @@ ul {
   transition: color 250ms var(--time), background-color 250ms var(--time);
 }
 
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -833,6 +830,10 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.footer__logo:hover, .footer__logo:focus {
+  color: var(--accent-color);
+}
+
 .footer__web {
   color: var(--accent-color);
   font-family: Raleway;
@@ -854,11 +855,6 @@ ul {
   -webkit-transition: color 250ms var(--time);
   -o-transition: color 250ms var(--time);
   transition: color 250ms var(--time);
-}
-
-.footer__logo:hover,
-.footer__logo:focus {
-  color: var(--accent-color);
 }
 
 .footer-addres__list {
