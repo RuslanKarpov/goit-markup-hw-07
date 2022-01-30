@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --titles-text-color-first: #212121;
   --text-color: #757575;
@@ -14,7 +13,6 @@
   --clients-color: #afb1b8;
   --time: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 h1,
 h2,
 h3,
@@ -25,38 +23,30 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 ul {
   margin: 0;
   list-style: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline-start: 0;
 }
-
 a {
   text-decoration: none;
   cursor: pointer;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 body {
   font-family: Roboto, sans-serif;
   background-color: var(-accent-color-text);
   color: var(--titles-text-color-first);
-  margin: 0;
-  /* Чтобы снять авто-margin браузера*/
+  margin: 0; /* Чтобы снять авто-margin браузера*/
 }
-
 ul {
   list-style: none;
   padding: 0;
 }
-
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -64,7 +54,6 @@ ul {
   height: 1px;
   margin: -1px;
 }
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -72,4 +61,3 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-/*# sourceMappingURL=main.css.map */
