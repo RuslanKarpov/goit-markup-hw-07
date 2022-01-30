@@ -110,11 +110,12 @@
   letter-spacing: 0.02em;
 
   transition: color 250ms var(--time);
-}
-&:hover,
-&:focus {
-  color: var(--accent-color);
-}
-.contact-nav__item:last-child {
-  margin-right: 0;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  .contact-nav__item:last-child {
+    margin-right: 0;
+  }
 }
