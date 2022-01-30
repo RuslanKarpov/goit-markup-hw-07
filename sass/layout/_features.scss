@@ -1,0 +1,42 @@
+/* Features - Приемущества */
+.hidden {
+  visibility: hidden;
+}
+.features-section {
+  padding: 94px 0;
+}
+
+.features__list {
+  display: flex;
+}
+
+.features__item:not(first-child) {
+  margin-right: 30px;
+}
+.features__title {
+  color: var(--titles-text-color-first);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features__text {
+  margin-top: 10px;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.features__sumbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: var(--team-color);
+  margin-bottom: 30px;
+}
+.features__sumbol .features__icon {
+  width: 70px;
+  height: 70px;
+}
